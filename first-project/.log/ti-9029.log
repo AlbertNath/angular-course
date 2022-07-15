@@ -1,0 +1,35 @@
+[17:47:18.044] Global cache location '/home/albert/.cache/typescript/4.7', safe file path '/home/albert/Documentos/courses/angular/first-project/node_modules/typescript/lib/typingSafeList.json', types map path /home/albert/Documentos/courses/angular/first-project/node_modules/typescript/lib/typesMap.json
+[17:47:18.045] Processing cache location '/home/albert/.cache/typescript/4.7'
+[17:47:18.045] Trying to find '/home/albert/.cache/typescript/4.7/package.json'...
+[17:47:18.046] Loaded content of '/home/albert/.cache/typescript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.599"}}
+[17:47:18.046] Loaded content of '/home/albert/.cache/typescript/4.7/package-lock.json'
+[17:47:18.046] Finished processing cache location '/home/albert/.cache/typescript/4.7'
+[17:47:18.046] Process id: 9036
+[17:47:18.046] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[17:47:18.046] validateDefaultNpmLocation: false
+[17:47:18.047] Npm config file: /home/albert/.cache/typescript/4.7/package.json
+[17:47:18.047] Updating types-registry npm package...
+[17:47:18.047] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[17:47:19.081]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 752ms
+
+found 0 vulnerabilities
+
+[17:47:19.081] Updated types-registry npm package
+[17:48:44.625] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/albert/Documentos/courses/angular/first-project/src/app/shared","kind":"discover"}
+[17:48:44.663] Loaded safelist from types map file '/home/albert/Documentos/courses/angular/first-project/node_modules/typescript/lib/typesMap.json'
+[17:48:44.664] Explicitly included types: []
+[17:48:44.665] Inferred typings from unresolved imports: []
+[17:48:44.665] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/albert/Documentos/courses/angular/first-project/src/app/shared/bower_components","/home/albert/Documentos/courses/angular/first-project/src/app/shared/node_modules"]}
+[17:48:44.665] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/albert/Documentos/courses/angular/first-project/src/app/shared/bower_components","/home/albert/Documentos/courses/angular/first-project/src/app/shared/node_modules"]}
+[17:48:44.666] DirectoryWatcher:: Added:: WatchInfo: /home/albert/Documentos/courses/angular/first-project/src/app/shared/bower_components
+[17:48:44.667] DirectoryWatcher:: Added:: WatchInfo: /home/albert/Documentos/courses/angular/first-project/src/app/shared/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:48:44.670] Elapsed:: 2.956656001508236ms DirectoryWatcher:: Added:: WatchInfo: /home/albert/Documentos/courses/angular/first-project/src/app/shared/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:48:44.670] DirectoryWatcher:: Added:: WatchInfo: /home/albert/Documentos/courses/angular/first-project/src/app/shared/node_modules
+[17:48:44.670] DirectoryWatcher:: Added:: WatchInfo: /home/albert/Documentos/courses/angular/first-project/src/app/shared/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:48:44.671] Elapsed:: 0.19807399809360504ms DirectoryWatcher:: Added:: WatchInfo: /home/albert/Documentos/courses/angular/first-project/src/app/shared/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:48:44.671] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[17:48:44.671] Response has been sent.
+[17:48:44.672] No new typings were requested as a result of typings discovery

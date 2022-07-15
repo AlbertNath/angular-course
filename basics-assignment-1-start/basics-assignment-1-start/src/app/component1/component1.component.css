@@ -1,0 +1,17 @@
+h3 {
+    color: cornflowerblue
+}
+
+img {
+    border-radius: 20px;
+}
+
+.album {
+    background-color: darkgray;
+    border-radius: 7px;
+}
+
+.alert-primary {
+    padding: 20px;
+    background-color: lightblue;
+}

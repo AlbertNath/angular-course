@@ -1,0 +1,673 @@
+Info 0    [17:51:40.521] Starting TS Server
+Info 1    [17:51:40.521] Version: 4.7.4
+Info 2    [17:51:40.521] Arguments: /usr/bin/node /home/albert/Documentos/courses/angular/first-project/node_modules/typescript/lib/tsserver.js --logFile /home/albert/Documentos/courses/angular/first-project/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/5e9244eebcec6d079d8b5ce3ca99afb1/tscancellation*
+Info 3    [17:51:40.521] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [17:51:40.521] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [17:51:40.537] Format host information updated
+Info 6    [17:51:40.551] Search path: /home/albert/Documentos/courses/angular/first-project/src/app/shopping-list
+Info 7    [17:51:40.552] For info: /home/albert/Documentos/courses/angular/first-project/src/app/shopping-list/shopping-list.component.ts :: Config file name: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 8    [17:51:40.552] Creating configuration project /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 9    [17:51:40.575] Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json : {
+ "rootNames": [
+  "/home/albert/Documentos/courses/angular/first-project/src/main.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/polyfills.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/test.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/app.component.spec.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/app.component.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/app.module.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/header/header.component.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/recipes/recipe.model.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/recipes/recipes.component.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/recipes/recipe-detail/recipe-detail.component.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/recipes/recipe-list/recipe-list.component.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/recipes/recipes-list/recipe-item/recipe-item.component.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/shared/ingredient.model.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/shopping-list/shopping-list.component.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/app/shopping-list/shopping-edit/shopping-edit.component.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/environments/environment.prod.ts",
+  "/home/albert/Documentos/courses/angular/first-project/src/environments/environment.ts"
+ ],
+ "options": {
+  "baseUrl": "/home/albert/Documentos/courses/angular/first-project",
+  "outDir": "/home/albert/Documentos/courses/angular/first-project/dist/out-tsc",
+  "sourceMap": true,
+  "declaration": false,
+  "downlevelIteration": true,
+  "experimentalDecorators": true,
+  "moduleResolution": 2,
+  "importHelpers": true,
+  "target": 7,
+  "module": 6,
+  "lib": [
+   "lib.es2020.d.ts",
+   "lib.dom.d.ts"
+  ],
+  "configFilePath": "/home/albert/Documentos/courses/angular/first-project/tsconfig.json"
+ }
+}
+Info 10   [17:51:40.812] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 11   [17:51:42.119] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1306.8746379986405ms
+Info 12   [17:51:42.119] Project '/home/albert/Documentos/courses/angular/first-project/tsconfig.json' (Configured)
+Info 13   [17:51:42.119] 	Files (332)
+
+Info 14   [17:51:42.119] -----------------------------------------------
+Info 15   [17:51:42.135] AutoImportProviderProject: found 4 root files in 4 dependencies in 13.07718200236559 ms
+Info 16   [17:51:42.136] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [17:51:42.270] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 133.77033799886703ms
+Info 18   [17:51:42.270] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [17:51:42.270] 	Files (195)
+
+Info 20   [17:51:42.270] -----------------------------------------------
+Info 21   [17:51:43.332] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.log/ti-9187.log 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 22   [17:51:43.333] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.log/ti-9187.log
+Info 23   [17:51:43.333] Elapsed:: 1.1041459999978542ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.log/ti-9187.log 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 24   [17:51:48.345] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 25   [17:51:48.374] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 28.282310999929905ms
+Info 26   [17:51:48.374] Different program with same set of files
+Info 27   [17:51:52.945] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 28   [17:51:52.964] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 19.34188399836421ms
+Info 29   [17:51:52.965] Different program with same set of files
+Info 30   [17:51:52.965] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 31   [17:51:52.981] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 15.355875000357628ms
+Info 32   [17:51:52.981] Different program with same set of files
+Info 33   [17:51:53.653] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 34   [17:51:53.673] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 19.640488997101784ms
+Info 35   [17:51:53.673] Different program with same set of files
+Info 36   [17:51:54.417] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 37   [17:51:54.437] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 20.322886999696493ms
+Info 38   [17:51:54.438] Different program with same set of files
+Info 39   [17:51:54.946] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 40   [17:51:54.967] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 20.84987299889326ms
+Info 41   [17:51:54.968] Different program with same set of files
+Info 42   [17:51:55.216] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 43   [17:51:55.241] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 24.105081997811794ms
+Info 44   [17:51:55.241] Different program with same set of files
+Info 45   [17:51:55.864] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 46   [17:51:55.878] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 13.300592999905348ms
+Info 47   [17:51:55.878] Different program with same set of files
+Info 48   [17:51:56.249] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 49   [17:51:56.262] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 13.3236170001328ms
+Info 50   [17:51:56.262] Different program with same set of files
+Info 51   [17:52:02.162] forEachExternalModuleToImportFrom autoImportProvider: 2.6386339999735355
+Info 52   [17:52:02.708] forEachExternalModuleToImportFrom autoImportProvider: 1.1219890005886555
+Info 53   [17:52:03.504] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 54   [17:52:03.521] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 16.553136002272367ms
+Info 55   [17:52:03.521] Different program with same set of files
+Info 56   [17:52:03.766] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 57   [17:52:03.781] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 15.102566998451948ms
+Info 58   [17:52:03.781] Different program with same set of files
+Info 59   [17:52:03.785] getCompletionData: Get current token: 0.04979399964213371
+Info 60   [17:52:03.785] getCompletionData: Is inside comment: 0.013444997370243073
+Info 61   [17:52:03.785] getCompletionData: Get previous token: 0.09791500121355057
+Info 62   [17:52:03.787] getCompletionsAtPosition: isCompletionListBlocker: 0.6089310012757778
+Info 63   [17:52:03.799] getExportInfoMap: cache miss or empty; calculating new results
+Info 64   [17:52:03.890] forEachExternalModuleToImportFrom autoImportProvider: 17.28931700065732
+Info 65   [17:52:03.890] getExportInfoMap: done in 91.58014199882746 ms
+Info 66   [17:52:03.902] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 67   [17:52:03.902] collectAutoImports: response is complete
+Info 68   [17:52:03.902] collectAutoImports: 11.450447998940945
+Info 69   [17:52:03.902] getCompletionData: Semantic work: 115.28785299882293
+Info 70   [17:52:03.943] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 40.86174199730158
+Info 71   [17:52:03.954] getCompletionData: Get current token: 0.00869699940085411
+Info 72   [17:52:03.954] getCompletionData: Is inside comment: 0.0034960024058818817
+Info 73   [17:52:03.954] getCompletionData: Get previous token: 0.029054000973701477
+Info 74   [17:52:03.954] getCompletionsAtPosition: isCompletionListBlocker: 0.003074999898672104
+Info 75   [17:52:03.956] getExportInfoMap: cache hit
+Info 76   [17:52:03.961] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 77   [17:52:03.961] collectAutoImports: response is complete
+Info 78   [17:52:03.961] collectAutoImports: 4.374142002314329
+Info 79   [17:52:03.961] getCompletionData: Semantic work: 6.383807998150587
+Info 80   [17:52:03.983] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 21.83195800334215
+Info 81   [17:52:03.986] getCompletionData: Get current token: 0.01089099794626236
+Info 82   [17:52:03.986] getCompletionData: Is inside comment: 0.0036769993603229523
+Info 83   [17:52:03.986] getCompletionData: Get previous token: 0.03408399969339371
+Info 84   [17:52:03.986] getCompletionsAtPosition: isCompletionListBlocker: 0.0033660009503364563
+Info 85   [17:52:03.988] getExportInfoMap: cache hit
+Info 86   [17:52:03.991] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 87   [17:52:03.991] collectAutoImports: response is complete
+Info 88   [17:52:03.991] collectAutoImports: 2.891601998358965
+Info 89   [17:52:03.991] getCompletionData: Semantic work: 4.775681000202894
+Info 90   [17:52:04.007] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.532999001443386
+Info 91   [17:52:04.009] getCompletionData: Get current token: 0.010009001940488815
+Info 92   [17:52:04.009] getCompletionData: Is inside comment: 0.0035670027136802673
+Info 93   [17:52:04.009] getCompletionData: Get previous token: 0.02910500019788742
+Info 94   [17:52:04.010] getCompletionsAtPosition: isCompletionListBlocker: 0.003777001053094864
+Info 95   [17:52:04.011] getExportInfoMap: cache hit
+Info 96   [17:52:04.014] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 1 from cache
+Info 97   [17:52:04.014] collectAutoImports: response is complete
+Info 98   [17:52:04.014] collectAutoImports: 2.6900220029056072
+Info 99   [17:52:04.014] getCompletionData: Semantic work: 4.209049999713898
+Info 100  [17:52:04.024] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.267795000225306
+Info 101  [17:52:06.927] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 102  [17:52:06.928] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_
+Info 103  [17:52:06.928] Elapsed:: 1.1717029996216297ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 104  [17:52:06.928] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 105  [17:52:06.928] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_
+Info 106  [17:52:06.928] Elapsed:: 0.1259780004620552ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 107  [17:52:06.928] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 108  [17:52:06.928] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 109  [17:52:06.928] Elapsed:: 0.1491909995675087ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 110  [17:52:06.928] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 111  [17:52:06.928] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 112  [17:52:06.929] Elapsed:: 0.12589799985289574ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 113  [17:52:06.929] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 114  [17:52:06.929] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old
+Info 115  [17:52:06.929] Elapsed:: 0.10393700003623962ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 116  [17:52:06.929] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 117  [17:52:06.929] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_
+Info 118  [17:52:06.929] Elapsed:: 0.0970430001616478ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 119  [17:52:06.929] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 120  [17:52:06.929] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack
+Info 121  [17:52:06.929] Elapsed:: 0.15866000205278397ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 122  [17:52:06.930] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 123  [17:52:06.930] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_
+Info 124  [17:52:06.930] Elapsed:: 0.19168199971318245ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 125  [17:52:06.930] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 126  [17:52:06.930] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack
+Info 127  [17:52:06.930] Elapsed:: 0.16408899798989296ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 128  [17:52:06.930] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 129  [17:52:06.930] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 130  [17:52:06.931] Elapsed:: 0.17166399955749512ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 131  [17:52:06.931] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 132  [17:52:06.931] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 133  [17:52:06.931] Elapsed:: 0.15020400285720825ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 134  [17:52:40.471] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 135  [17:52:40.488] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 16.40599799901247ms
+Info 136  [17:52:40.488] Different program with same set of files
+Info 137  [17:52:42.501] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 138  [17:52:42.516] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 15.346775997430086ms
+Info 139  [17:52:42.516] Different program with same set of files
+Info 140  [17:52:43.803] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 141  [17:52:43.817] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 14.354602999985218ms
+Info 142  [17:52:43.818] Different program with same set of files
+Info 143  [17:52:45.979] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 144  [17:52:45.998] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 18.424970999360085ms
+Info 145  [17:52:45.998] Different program with same set of files
+Info 146  [17:52:45.999] getCompletionData: Get current token: 0.02831299975514412
+Info 147  [17:52:45.999] getCompletionData: Is inside comment: 0.07109500095248222
+Info 148  [17:52:45.999] getCompletionData: Get previous token: 0.11055900156497955
+Info 149  [17:52:46.000] getCompletionsAtPosition: isCompletionListBlocker: 0.009307999163866043
+Info 150  [17:52:46.009] getExportInfoMap: cache hit
+Info 151  [17:52:46.137] collectAutoImports: resolved 100 module specifiers, plus 3 ambient and 2260 from cache (234.7% hit rate)
+Info 152  [17:52:46.137] collectAutoImports: response is incomplete
+Info 153  [17:52:46.137] collectAutoImports: 126.99403499811888
+Info 154  [17:52:46.137] getCompletionData: Semantic work: 136.98901399970055
+Info 155  [17:52:46.176] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 37.99932299926877
+Info 156  [17:52:46.266] getCompletionData: Get current token: 0.010640997439622879
+Info 157  [17:52:46.266] getCompletionData: Is inside comment: 0.025067001581192017
+Info 158  [17:52:46.266] getCompletionData: Get previous token: 0.045454997569322586
+Info 159  [17:52:46.266] getCompletionsAtPosition: isCompletionListBlocker: 0.0037869997322559357
+Info 160  [17:52:46.270] getExportInfoMap: cache hit
+Info 161  [17:52:46.341] collectAutoImports: resolved 100 module specifiers, plus 3 ambient and 2260 from cache (668.6% hit rate)
+Info 162  [17:52:46.341] collectAutoImports: response is incomplete
+Info 163  [17:52:46.341] collectAutoImports: 70.68857600167394
+Info 164  [17:52:46.341] getCompletionData: Semantic work: 74.89681400358677
+Info 165  [17:52:46.372] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 30.662856001406908
+Info 166  [17:52:46.383] getCompletionData: Get current token: 0.021320998668670654
+Info 167  [17:52:46.383] getCompletionData: Is inside comment: 0.045295000076293945
+Info 168  [17:52:46.383] getCompletionData: Get previous token: 0.05119699984788895
+Info 169  [17:52:46.384] getCompletionsAtPosition: isCompletionListBlocker: 0.003926999866962433
+Info 170  [17:52:46.386] getExportInfoMap: cache hit
+Info 171  [17:52:46.434] collectAutoImports: resolved 5 module specifiers, plus 3 ambient and 2355 from cache
+Info 172  [17:52:46.434] collectAutoImports: response is complete
+Info 173  [17:52:46.434] collectAutoImports: 47.01425099745393
+Info 174  [17:52:46.434] getCompletionData: Semantic work: 50.04238000139594
+Info 175  [17:52:46.456] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 21.75526199862361
+Info 176  [17:52:46.464] getCompletionData: Get current token: 0.01838500052690506
+Info 177  [17:52:46.464] getCompletionData: Is inside comment: 0.037491001188755035
+Info 178  [17:52:46.464] getCompletionData: Get previous token: 0.04875199869275093
+Info 179  [17:52:46.464] getCompletionsAtPosition: isCompletionListBlocker: 0.004499003291130066
+Info 180  [17:52:46.466] getExportInfoMap: cache hit
+Info 181  [17:52:46.513] collectAutoImports: resolved 0 module specifiers, plus 3 ambient and 2360 from cache
+Info 182  [17:52:46.513] collectAutoImports: response is complete
+Info 183  [17:52:46.513] collectAutoImports: 46.66764600202441
+Info 184  [17:52:46.513] getCompletionData: Semantic work: 49.38856500014663
+Info 185  [17:52:46.533] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.02105600014329
+Info 186  [17:52:46.716] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 187  [17:52:46.728] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 12.351809997111559ms
+Info 188  [17:52:46.728] Different program with same set of files
+Info 189  [17:52:46.738] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 190  [17:52:46.753] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 14.861300002783537ms
+Info 191  [17:52:46.753] Different program with same set of files
+Info 192  [17:52:46.939] getCompletionData: Get current token: 0.024755999445915222
+Info 193  [17:52:46.939] getCompletionData: Is inside comment: 0.06282899901270866
+Info 194  [17:52:46.939] getCompletionData: Get previous token: 0.09568999707698822
+Info 195  [17:52:46.940] getCompletionsAtPosition: isCompletionListBlocker: 0.2118300013244152
+Info 196  [17:52:46.945] getExportInfoMap: cache hit
+Info 197  [17:52:46.960] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 241 from cache
+Info 198  [17:52:46.960] collectAutoImports: response is complete
+Info 199  [17:52:46.960] collectAutoImports: 14.857523001730442
+Info 200  [17:52:46.961] getCompletionData: Semantic work: 21.033236999064684
+Info 201  [17:52:46.988] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 26.686704996973276
+Info 202  [17:52:47.018] getCompletionData: Get current token: 0.05101599916815758
+Info 203  [17:52:47.018] getCompletionData: Is inside comment: 0.07725599780678749
+Info 204  [17:52:47.019] getCompletionData: Get previous token: 0.12609800323843956
+Info 205  [17:52:47.019] getCompletionsAtPosition: isCompletionListBlocker: 0.04430299997329712
+Info 206  [17:52:47.024] getExportInfoMap: cache hit
+Info 207  [17:52:47.038] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 241 from cache
+Info 208  [17:52:47.038] collectAutoImports: response is complete
+Info 209  [17:52:47.038] collectAutoImports: 13.92544300109148
+Info 210  [17:52:47.038] getCompletionData: Semantic work: 19.34043000265956
+Info 211  [17:52:47.059] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.723361000418663
+Info 212  [17:52:47.065] getCompletionData: Get current token: 0.03175999969244003
+Info 213  [17:52:47.065] getCompletionData: Is inside comment: 0.07112400233745575
+Info 214  [17:52:47.065] getCompletionData: Get previous token: 0.13973399996757507
+Info 215  [17:52:47.066] getCompletionsAtPosition: isCompletionListBlocker: 0.04486500099301338
+Info 216  [17:52:47.071] getExportInfoMap: cache hit
+Info 217  [17:52:47.078] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 241 from cache
+Info 218  [17:52:47.078] collectAutoImports: response is complete
+Info 219  [17:52:47.078] collectAutoImports: 6.733458001166582
+Info 220  [17:52:47.078] getCompletionData: Semantic work: 12.199061002582312
+Info 221  [17:52:47.086] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.987997002899647
+Info 222  [17:52:47.089] getCompletionData: Get current token: 0.013396002352237701
+Info 223  [17:52:47.089] getCompletionData: Is inside comment: 0.03164000064134598
+Info 224  [17:52:47.089] getCompletionData: Get previous token: 0.11639900133013725
+Info 225  [17:52:47.089] getCompletionsAtPosition: isCompletionListBlocker: 0.014828000217676163
+Info 226  [17:52:47.092] getExportInfoMap: cache hit
+Info 227  [17:52:47.099] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 241 from cache
+Info 228  [17:52:47.099] collectAutoImports: response is complete
+Info 229  [17:52:47.099] collectAutoImports: 6.3486610017716885
+Info 230  [17:52:47.099] getCompletionData: Semantic work: 9.419650997966528
+Info 231  [17:52:47.107] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 8.097123999148607
+Info 232  [17:52:47.222] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 233  [17:52:47.235] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 13.01909999921918ms
+Info 234  [17:52:47.235] Different program with same set of files
+Info 235  [17:52:47.236] getCompletionData: Get current token: 0.027191001921892166
+Info 236  [17:52:47.237] getCompletionData: Is inside comment: 0.05353099852800369
+Info 237  [17:52:47.237] getCompletionData: Get previous token: 0.08682399988174438
+Info 238  [17:52:47.237] getCompletionsAtPosition: isCompletionListBlocker: 0.03666900098323822
+Info 239  [17:52:47.243] getExportInfoMap: cache hit
+Info 240  [17:52:47.250] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 8 from cache
+Info 241  [17:52:47.250] collectAutoImports: response is complete
+Info 242  [17:52:47.250] collectAutoImports: 6.368758998811245
+Info 243  [17:52:47.250] getCompletionData: Semantic work: 13.097668997943401
+Info 244  [17:52:47.266] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 14.34952300041914
+Info 245  [17:52:47.976] Format host information updated
+Info 246  [17:52:47.976] Format host information updated
+Info 247  [17:52:47.978] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 248  [17:52:47.989] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 10.938711002469063ms
+Info 249  [17:52:47.989] Different program with same set of files
+Info 250  [17:52:47.990] getCompletionData: Get current token: 0.06745699793100357
+Info 251  [17:52:47.990] getCompletionData: Is inside comment: 0.018984999507665634
+Info 252  [17:52:47.990] getCompletionData: Get previous token: 0.11373500153422356
+Info 253  [17:52:47.990] getCompletionsAtPosition: isCompletionListBlocker: 0.021300002932548523
+Info 254  [17:52:47.994] getCompletionData: Semantic work: 4.048886999487877
+Info 255  [17:52:48.006] getCompletionData: Get current token: 0.08994999900460243
+Info 256  [17:52:48.006] getCompletionData: Is inside comment: 0.03230099752545357
+Info 257  [17:52:48.007] getCompletionData: Get previous token: 0.16498199850320816
+Info 258  [17:52:48.007] getCompletionsAtPosition: isCompletionListBlocker: 0.038672998547554016
+Info 259  [17:52:48.013] getCompletionData: Semantic work: 6.265234000980854
+Info 260  [17:52:48.560] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 261  [17:52:48.571] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 10.797755002975464ms
+Info 262  [17:52:48.571] Different program with same set of files
+Info 263  [17:52:50.713] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 264  [17:52:50.725] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 11.337934996932745ms
+Info 265  [17:52:50.725] Different program with same set of files
+Info 266  [17:52:51.280] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 267  [17:52:51.291] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 11.012880999594927ms
+Info 268  [17:52:51.291] Different program with same set of files
+Info 269  [17:52:51.531] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 270  [17:52:51.540] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 9.700821999460459ms
+Info 271  [17:52:51.540] Different program with same set of files
+Info 272  [17:52:51.687] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 273  [17:52:51.696] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 8.977026000618935ms
+Info 274  [17:52:51.696] Different program with same set of files
+Info 275  [17:52:51.848] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 276  [17:52:51.857] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 9.507346998900175ms
+Info 277  [17:52:51.857] Different program with same set of files
+Info 278  [17:52:51.942] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 279  [17:52:51.954] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 11.989996001124382ms
+Info 280  [17:52:51.955] Different program with same set of files
+Info 281  [17:52:52.515] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 282  [17:52:52.524] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 8.486889000982046ms
+Info 283  [17:52:52.524] Different program with same set of files
+Info 284  [17:52:53.371] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 285  [17:52:53.380] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 8.763232000172138ms
+Info 286  [17:52:53.380] Different program with same set of files
+Info 287  [17:52:53.572] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 288  [17:52:53.581] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 9.008865997195244ms
+Info 289  [17:52:53.581] Different program with same set of files
+Info 290  [17:52:53.900] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 291  [17:52:53.905] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 4.961851000785828ms
+Info 292  [17:52:53.905] Different program with same set of files
+Info 293  [17:52:55.188] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 294  [17:52:55.197] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 9.174959998577833ms
+Info 295  [17:52:55.197] Different program with same set of files
+Info 296  [17:52:55.641] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 297  [17:52:55.647] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 33 structureChanged: false structureIsReused:: Completely Elapsed: 6.008588999509811ms
+Info 298  [17:52:55.647] Different program with same set of files
+Info 299  [17:52:57.193] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 300  [17:52:57.202] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 8.738935999572277ms
+Info 301  [17:52:57.202] Different program with same set of files
+Info 302  [17:52:57.380] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 303  [17:52:57.386] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 6.194590002298355ms
+Info 304  [17:52:57.387] Different program with same set of files
+Info 305  [17:52:58.923] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 306  [17:52:58.929] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 5.830443002283573ms
+Info 307  [17:52:58.929] Different program with same set of files
+Info 308  [17:52:58.930] getCompletionData: Get current token: 0.04448400065302849
+Info 309  [17:52:58.931] getCompletionData: Is inside comment: 0.09940800070762634
+Info 310  [17:52:58.931] getCompletionData: Get previous token: 0.1501840017735958
+Info 311  [17:52:58.931] getCompletionsAtPosition: isCompletionListBlocker: 0.20075899735093117
+Info 312  [17:52:58.938] getExportInfoMap: cache hit
+Info 313  [17:52:59.014] collectAutoImports: resolved 0 module specifiers, plus 3 ambient and 2360 from cache
+Info 314  [17:52:59.014] collectAutoImports: response is complete
+Info 315  [17:52:59.014] collectAutoImports: 75.10384400188923
+Info 316  [17:52:59.014] getCompletionData: Semantic work: 82.33145499974489
+Info 317  [17:52:59.035] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20.748418997973204
+Info 318  [17:52:59.154] getCompletionData: Get current token: 0.010600000619888306
+Info 319  [17:52:59.154] getCompletionData: Is inside comment: 0.016552001237869263
+Info 320  [17:52:59.154] getCompletionData: Get previous token: 0.023694999516010284
+Info 321  [17:52:59.154] getCompletionsAtPosition: isCompletionListBlocker: 0.006833001971244812
+Info 322  [17:52:59.158] getExportInfoMap: cache hit
+Info 323  [17:52:59.197] collectAutoImports: resolved 0 module specifiers, plus 3 ambient and 2360 from cache
+Info 324  [17:52:59.197] collectAutoImports: response is complete
+Info 325  [17:52:59.197] collectAutoImports: 39.410277999937534
+Info 326  [17:52:59.197] getCompletionData: Semantic work: 42.77222700044513
+Info 327  [17:52:59.217] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 18.97282600030303
+Info 328  [17:52:59.227] getCompletionData: Get current token: 0.013716001063585281
+Info 329  [17:52:59.227] getCompletionData: Is inside comment: 0.019898001104593277
+Info 330  [17:52:59.227] getCompletionData: Get previous token: 0.04294100031256676
+Info 331  [17:52:59.227] getCompletionsAtPosition: isCompletionListBlocker: 0.009006999433040619
+Info 332  [17:52:59.229] getExportInfoMap: cache hit
+Info 333  [17:52:59.259] collectAutoImports: resolved 0 module specifiers, plus 3 ambient and 2360 from cache
+Info 334  [17:52:59.259] collectAutoImports: response is complete
+Info 335  [17:52:59.259] collectAutoImports: 30.18255900219083
+Info 336  [17:52:59.259] getCompletionData: Semantic work: 32.35572300106287
+Info 337  [17:52:59.273] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13.73139600083232
+Info 338  [17:52:59.282] getCompletionData: Get current token: 0.012432999908924103
+Info 339  [17:52:59.282] getCompletionData: Is inside comment: 0.020628999918699265
+Info 340  [17:52:59.282] getCompletionData: Get previous token: 0.04219000041484833
+Info 341  [17:52:59.282] getCompletionsAtPosition: isCompletionListBlocker: 0.009268000721931458
+Info 342  [17:52:59.285] getExportInfoMap: cache hit
+Info 343  [17:52:59.311] collectAutoImports: resolved 0 module specifiers, plus 3 ambient and 2360 from cache
+Info 344  [17:52:59.311] collectAutoImports: response is complete
+Info 345  [17:52:59.311] collectAutoImports: 26.605701997876167
+Info 346  [17:52:59.311] getCompletionData: Semantic work: 28.912678997963667
+Info 347  [17:52:59.327] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.123333998024464
+Info 348  [17:52:59.362] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 349  [17:52:59.370] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 7.428029999136925ms
+Info 350  [17:52:59.370] Different program with same set of files
+Info 351  [17:53:00.107] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 352  [17:53:00.118] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 38 structureChanged: false structureIsReused:: Completely Elapsed: 10.555677998811007ms
+Info 353  [17:53:00.118] Different program with same set of files
+Info 354  [17:53:00.119] getCompletionData: Get current token: 0.023143000900745392
+Info 355  [17:53:00.119] getCompletionData: Is inside comment: 0.03776099905371666
+Info 356  [17:53:00.119] getCompletionData: Get previous token: 0.06838899850845337
+Info 357  [17:53:00.119] getCompletionsAtPosition: isCompletionListBlocker: 0.024456001818180084
+Info 358  [17:53:00.125] getExportInfoMap: cache hit
+Info 359  [17:53:00.131] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 2 from cache
+Info 360  [17:53:00.132] collectAutoImports: response is complete
+Info 361  [17:53:00.132] collectAutoImports: 6.143222998827696
+Info 362  [17:53:00.132] getCompletionData: Semantic work: 12.11668599769473
+Info 363  [17:53:00.150] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.642512999475002
+Info 364  [17:53:00.798] Format host information updated
+Info 365  [17:53:00.798] Format host information updated
+Info 366  [17:53:00.798] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 367  [17:53:00.807] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 8.616994999349117ms
+Info 368  [17:53:00.807] Different program with same set of files
+Info 369  [17:53:00.808] getCompletionData: Get current token: 0.06745699793100357
+Info 370  [17:53:00.808] getCompletionData: Is inside comment: 0.01182200014591217
+Info 371  [17:53:00.808] getCompletionData: Get previous token: 0.08718499913811684
+Info 372  [17:53:00.808] getCompletionsAtPosition: isCompletionListBlocker: 0.031077999621629715
+Info 373  [17:53:00.814] getCompletionData: Semantic work: 6.148333001881838
+Info 374  [17:53:00.820] getCompletionData: Get current token: 0.04533500224351883
+Info 375  [17:53:00.820] getCompletionData: Is inside comment: 0.0073739998042583466
+Info 376  [17:53:00.821] getCompletionData: Get previous token: 0.07080399990081787
+Info 377  [17:53:00.821] getCompletionsAtPosition: isCompletionListBlocker: 0.01993800327181816
+Info 378  [17:53:00.825] getCompletionData: Semantic work: 3.9101359993219376
+Info 379  [17:53:01.637] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 380  [17:53:01.647] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 40 structureChanged: false structureIsReused:: Completely Elapsed: 10.46101900190115ms
+Info 381  [17:53:01.648] Different program with same set of files
+Info 382  [17:53:02.219] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 383  [17:53:02.229] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 41 structureChanged: false structureIsReused:: Completely Elapsed: 9.907363001257181ms
+Info 384  [17:53:02.230] Different program with same set of files
+Info 385  [17:53:03.267] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 386  [17:53:03.278] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 42 structureChanged: false structureIsReused:: Completely Elapsed: 10.975400000810623ms
+Info 387  [17:53:03.278] Different program with same set of files
+Info 388  [17:53:04.383] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 389  [17:53:04.392] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 43 structureChanged: false structureIsReused:: Completely Elapsed: 8.531974997371435ms
+Info 390  [17:53:04.392] Different program with same set of files
+Info 391  [17:53:04.953] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 392  [17:53:04.962] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 44 structureChanged: false structureIsReused:: Completely Elapsed: 8.625491000711918ms
+Info 393  [17:53:04.962] Different program with same set of files
+Info 394  [17:53:05.099] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 395  [17:53:05.107] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 8.083448000252247ms
+Info 396  [17:53:05.107] Different program with same set of files
+Info 397  [17:53:05.260] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 398  [17:53:05.268] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 8.027693003416061ms
+Info 399  [17:53:05.268] Different program with same set of files
+Info 400  [17:53:05.725] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 401  [17:53:05.733] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 47 structureChanged: false structureIsReused:: Completely Elapsed: 8.22698900103569ms
+Info 402  [17:53:05.733] Different program with same set of files
+Info 403  [17:53:06.052] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 404  [17:53:06.060] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 7.848765000700951ms
+Info 405  [17:53:06.060] Different program with same set of files
+Info 406  [17:53:06.196] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 407  [17:53:06.204] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 7.756058998405933ms
+Info 408  [17:53:06.204] Different program with same set of files
+Info 409  [17:53:06.288] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 410  [17:53:06.297] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 8.575106002390385ms
+Info 411  [17:53:06.297] Different program with same set of files
+Info 412  [17:53:06.523] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 413  [17:53:06.531] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 7.840658999979496ms
+Info 414  [17:53:06.531] Different program with same set of files
+Info 415  [17:53:07.600] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 416  [17:53:07.604] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 52 structureChanged: false structureIsReused:: Completely Elapsed: 3.997038997709751ms
+Info 417  [17:53:07.604] Different program with same set of files
+Info 418  [17:53:07.802] getCompletionData: Get current token: 0.03313199803233147
+Info 419  [17:53:07.802] getCompletionData: Is inside comment: 0.008987002074718475
+Info 420  [17:53:07.802] getCompletionData: Get previous token: 0.06594499945640564
+Info 421  [17:53:07.802] getCompletionsAtPosition: isCompletionListBlocker: 0.005330000072717667
+Info 422  [17:53:07.805] getCompletionData: Semantic work: 2.296016998589039
+Info 423  [17:53:07.807] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 2.559493999928236
+Info 424  [17:53:08.016] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 425  [17:53:08.025] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 8.669725999236107ms
+Info 426  [17:53:08.025] Different program with same set of files
+Info 427  [17:53:08.245] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 428  [17:53:08.256] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 11.131094001233578ms
+Info 429  [17:53:08.256] Different program with same set of files
+Info 430  [17:53:08.474] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 431  [17:53:08.485] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 55 structureChanged: false structureIsReused:: Completely Elapsed: 10.664542999118567ms
+Info 432  [17:53:08.485] Different program with same set of files
+Info 433  [17:53:09.009] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json
+Info 434  [17:53:09.023] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Version: 56 structureChanged: false structureIsReused:: Completely Elapsed: 13.938546996563673ms
+Info 435  [17:53:09.023] Different program with same set of files
+Info 436  [17:53:13.522] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 437  [17:53:13.522] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_
+Info 438  [17:53:13.523] Elapsed:: 0.255902998149395ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 439  [17:53:13.523] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 440  [17:53:13.523] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 441  [17:53:13.523] Elapsed:: 0.14450199902057648ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 442  [17:53:13.523] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 443  [17:53:13.523] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 444  [17:53:13.523] Elapsed:: 0.13425299897789955ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 445  [17:53:13.523] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 446  [17:53:13.523] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old
+Info 447  [17:53:13.523] Elapsed:: 0.10181200131773949ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 448  [17:53:13.523] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 449  [17:53:13.523] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_
+Info 450  [17:53:13.523] Elapsed:: 0.2846379987895489ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 451  [17:53:13.524] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 452  [17:53:13.524] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack
+Info 453  [17:53:13.524] Elapsed:: 0.1418679989874363ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 454  [17:53:13.524] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 455  [17:53:13.524] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 456  [17:53:13.524] Elapsed:: 0.09173300117254257ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 457  [17:53:13.524] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 458  [17:53:13.524] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 459  [17:53:13.524] Elapsed:: 0.06881999969482422ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 460  [17:54:58.161] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 461  [17:54:58.161] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_
+Info 462  [17:54:58.161] Elapsed:: 0.07889899984002113ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 463  [17:54:58.161] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 464  [17:54:58.161] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_
+Info 465  [17:54:58.161] Elapsed:: 0.029915999621152878ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 466  [17:54:58.161] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 467  [17:54:58.162] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 468  [17:54:58.162] Elapsed:: 0.026881001889705658ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 469  [17:54:58.162] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 470  [17:54:58.162] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 471  [17:54:58.162] Elapsed:: 0.023435000330209732ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 472  [17:54:58.162] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 473  [17:54:58.162] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old
+Info 474  [17:54:58.162] Elapsed:: 0.022833000868558884ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 475  [17:54:58.162] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 476  [17:54:58.162] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_
+Info 477  [17:54:58.162] Elapsed:: 0.022442001849412918ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 478  [17:54:58.162] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 479  [17:54:58.162] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack
+Info 480  [17:54:58.162] Elapsed:: 0.02464599907398224ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 481  [17:54:58.162] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 482  [17:54:58.162] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_
+Info 483  [17:54:58.162] Elapsed:: 0.15994200110435486ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack_ 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 484  [17:54:58.162] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 485  [17:54:58.162] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack
+Info 486  [17:54:58.162] Elapsed:: 0.05034499987959862ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/10.pack 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 487  [17:54:58.162] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 488  [17:54:58.162] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 489  [17:54:58.162] Elapsed:: 0.024436000734567642ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 490  [17:54:58.162] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 491  [17:54:58.162] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 492  [17:54:58.162] Elapsed:: 0.022422000765800476ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 493  [17:56:26.892] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 494  [17:56:26.892] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_
+Info 495  [17:56:26.892] Elapsed:: 0.17883799970149994ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 496  [17:56:26.892] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 497  [17:56:26.892] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_
+Info 498  [17:56:26.892] Elapsed:: 0.10268399864435196ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 499  [17:56:26.892] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 500  [17:56:26.892] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 501  [17:56:26.892] Elapsed:: 0.11815299838781357ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 502  [17:56:26.892] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 503  [17:56:26.893] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 504  [17:56:26.893] Elapsed:: 0.07223599776625633ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 505  [17:56:26.893] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 506  [17:56:26.893] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old
+Info 507  [17:56:26.893] Elapsed:: 0.05562499910593033ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 508  [17:56:26.893] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 509  [17:56:26.893] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_
+Info 510  [17:56:26.893] Elapsed:: 0.050836000591516495ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 511  [17:56:26.893] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 512  [17:56:26.893] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack
+Info 513  [17:56:26.893] Elapsed:: 0.0529399998486042ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 514  [17:56:26.893] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 515  [17:56:26.893] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_
+Info 516  [17:56:26.893] Elapsed:: 0.052209001034498215ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack_ 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 517  [17:56:26.893] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 518  [17:56:26.893] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack
+Info 519  [17:56:26.893] Elapsed:: 0.04899299889802933ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/11.pack 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 520  [17:56:26.893] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 521  [17:56:26.893] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 522  [17:56:26.893] Elapsed:: 0.062147002667188644ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 523  [17:56:26.893] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 524  [17:56:26.893] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 525  [17:56:26.893] Elapsed:: 0.1145859993994236ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 526  [18:01:31.560] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 527  [18:01:31.560] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_
+Info 528  [18:01:31.560] Elapsed:: 0.1125820018351078ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 529  [18:01:31.560] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/0.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 530  [18:01:31.560] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/0.pack_
+Info 531  [18:01:31.560] Elapsed:: 0.06533300131559372ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/0.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 532  [18:01:31.560] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 533  [18:01:31.560] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_
+Info 534  [18:01:31.560] Elapsed:: 0.06442200019955635ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 535  [18:01:31.560] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 536  [18:01:31.560] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 537  [18:01:31.560] Elapsed:: 0.058320000767707825ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 538  [18:01:31.561] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 539  [18:01:31.561] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 540  [18:01:31.561] Elapsed:: 0.0554949976503849ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 541  [18:01:31.561] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 542  [18:01:31.561] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old
+Info 543  [18:01:31.561] Elapsed:: 0.05829999968409538ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 544  [18:01:31.561] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/0.pack_ 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 545  [18:01:31.561] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/0.pack_
+Info 546  [18:01:31.561] Elapsed:: 0.058219000697135925ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/0.pack_ 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 547  [18:01:31.561] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/0.pack 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 548  [18:01:31.561] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/0.pack
+Info 549  [18:01:31.561] Elapsed:: 0.05392200127243996ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/0.pack 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 550  [18:01:31.561] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 551  [18:01:31.561] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_
+Info 552  [18:01:31.561] Elapsed:: 0.0570170022547245ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 553  [18:01:31.561] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 554  [18:01:31.561] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack
+Info 555  [18:01:31.561] Elapsed:: 0.061375997960567474ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 556  [18:01:31.561] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 557  [18:01:31.561] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_
+Info 558  [18:01:31.561] Elapsed:: 0.05146699771285057ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 559  [18:01:31.561] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack 11:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 560  [18:01:31.561] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack
+Info 561  [18:01:31.561] Elapsed:: 0.05348099768161774ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack 11:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 562  [18:01:31.561] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 12:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 563  [18:01:31.561] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 564  [18:01:31.562] Elapsed:: 0.06441199779510498ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 12:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 565  [18:01:31.562] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 13:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 566  [18:01:31.562] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 567  [18:01:31.562] Elapsed:: 0.05747799947857857ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 13:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 568  [18:02:29.100] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 569  [18:02:29.100] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_
+Info 570  [18:02:29.100] Elapsed:: 0.12486599758267403ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 571  [18:02:29.100] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 572  [18:02:29.100] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_
+Info 573  [18:02:29.100] Elapsed:: 0.06598499789834023ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 574  [18:02:29.100] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 575  [18:02:29.100] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 576  [18:02:29.100] Elapsed:: 0.0658239983022213ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 577  [18:02:29.100] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 578  [18:02:29.100] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 579  [18:02:29.100] Elapsed:: 0.06158599629998207ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 580  [18:02:29.100] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 581  [18:02:29.100] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old
+Info 582  [18:02:29.101] Elapsed:: 0.06295899674296379ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 583  [18:02:29.101] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 584  [18:02:29.101] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_
+Info 585  [18:02:29.101] Elapsed:: 0.06176599860191345ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 586  [18:02:29.101] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 587  [18:02:29.101] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack
+Info 588  [18:02:29.101] Elapsed:: 0.07866799831390381ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 589  [18:02:29.101] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 590  [18:02:29.101] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_
+Info 591  [18:02:29.101] Elapsed:: 0.058559998869895935ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 592  [18:02:29.101] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 593  [18:02:29.101] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack
+Info 594  [18:02:29.101] Elapsed:: 0.06315900012850761ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 595  [18:02:29.101] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 596  [18:02:29.101] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 597  [18:02:29.101] Elapsed:: 0.056105997413396835ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 598  [18:02:29.101] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 599  [18:02:29.101] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 600  [18:02:29.101] Elapsed:: 0.0825360007584095ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 601  [18:05:21.715] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 602  [18:05:21.715] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_
+Info 603  [18:05:21.715] Elapsed:: 0.07306800037622452ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 0:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 604  [18:05:21.715] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 605  [18:05:21.715] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_
+Info 606  [18:05:21.715] Elapsed:: 0.03970499709248543ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 1:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 607  [18:05:21.715] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 608  [18:05:21.715] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 609  [18:05:21.715] Elapsed:: 0.03537699952721596ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 2:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 610  [18:05:21.715] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 611  [18:05:21.715] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 612  [18:05:21.715] Elapsed:: 0.03380399942398071ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 3:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 613  [18:05:21.715] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 614  [18:05:21.715] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old
+Info 615  [18:05:21.715] Elapsed:: 0.03627900034189224ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack.old 4:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 616  [18:05:21.715] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 617  [18:05:21.715] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_
+Info 618  [18:05:21.715] Elapsed:: 0.0312890000641346ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack_ 5:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 619  [18:05:21.715] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 620  [18:05:21.715] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack
+Info 621  [18:05:21.715] Elapsed:: 0.03577800095081329ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/13.pack 6:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 622  [18:05:21.715] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 623  [18:05:21.715] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_
+Info 624  [18:05:21.715] Elapsed:: 0.05593499913811684ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack_ 7:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 625  [18:05:21.715] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 626  [18:05:21.715] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack
+Info 627  [18:05:21.716] Elapsed:: 0.05395199730992317ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/12.pack 8:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 628  [18:05:21.716] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 629  [18:05:21.716] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_
+Info 630  [18:05:21.716] Elapsed:: 0.041218001395463943ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack_ 9:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 631  [18:05:21.716] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory
+Info 632  [18:05:21.716] Project: /home/albert/Documentos/courses/angular/first-project/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack
+Info 633  [18:05:21.716] Elapsed:: 0.03573700040578842ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/first-project/.angular/cache/14.0.5/angular-webpack/a3547e52e76dc943a111a778e1000f32130d0691/index.pack 10:: WatchInfo: /home/albert/Documentos/courses/angular/first-project 1 undefined Config: /home/albert/Documentos/courses/angular/first-project/tsconfig.json WatchType: Wild card directory

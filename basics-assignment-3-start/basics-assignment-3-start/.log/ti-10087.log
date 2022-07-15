@@ -1,0 +1,19 @@
+[18:32:34.130] Global cache location '/home/albert/.cache/typescript/4.0', safe file path '/home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/node_modules/typescript/lib/typingSafeList.json', types map path /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/node_modules/typescript/lib/typesMap.json
+[18:32:34.130] Processing cache location '/home/albert/.cache/typescript/4.0'
+[18:32:34.130] Trying to find '/home/albert/.cache/typescript/4.0/package.json'...
+[18:32:34.131] Loaded content of '/home/albert/.cache/typescript/4.0/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.599"}}
+[18:32:34.131] Loaded content of '/home/albert/.cache/typescript/4.0/package-lock.json'
+[18:32:34.131] Finished processing cache location '/home/albert/.cache/typescript/4.0'
+[18:32:34.131] Process id: 10094
+[18:32:34.131] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[18:32:34.131] validateDefaultNpmLocation: false
+[18:32:34.132] Npm config file: /home/albert/.cache/typescript/4.0/package.json
+[18:32:34.132] Updating types-registry npm package...
+[18:32:34.132] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[18:32:34.945]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 665ms
+
+found 0 vulnerabilities
+
+[18:32:34.945] Updated types-registry npm package
