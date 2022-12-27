@@ -1,13 +1,13 @@
-Info 0    [18:32:33.933] Starting TS Server
-Info 1    [18:32:33.933] Version: 4.0.8
-Info 2    [18:32:33.934] Arguments: /usr/bin/node /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/node_modules/typescript/lib/tsserver.js --logFile /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/34f0e494491e5eea4dec11fc0ead834e/tscancellation*
-Info 3    [18:32:33.934] Platform: linux NodeVersion: 18 CaseSensitive: true
-Info 4    [18:32:33.934] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [18:32:33.945] Format host information updated
-Info 6    [18:32:33.956] Search path: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/src/app
-Info 7    [18:32:33.957] For info: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/src/app/app.component.ts :: Config file name: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 8    [18:32:33.957] Opened configuration file /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 9    [18:32:33.983] Config: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json : {
+Info 0    [12:40:16.766] Starting TS Server
+Info 1    [12:40:16.767] Version: 4.7.4
+Info 2    [12:40:16.767] Arguments: /usr/local/bin/node /home/albert/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/f05c2806a254d1227e5722c5ad2984d8/tscancellation*
+Info 3    [12:40:16.767] Platform: linux NodeVersion: 19 CaseSensitive: true
+Info 4    [12:40:16.767] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [12:40:16.778] Format host information updated
+Info 6    [12:40:16.791] Search path: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/src/app
+Info 7    [12:40:16.792] For info: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/src/app/app.module.ts :: Config file name: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
+Info 8    [12:40:16.792] Creating configuration project /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
+Info 9    [12:40:16.812] Config: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json : {
  "rootNames": [
   "/home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/e2e/src/app.e2e-spec.ts",
   "/home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/e2e/src/app.po.ts",
@@ -39,89 +39,22 @@ Info 9    [18:32:33.983] Config: /home/albert/Documentos/courses/angular/basics-
   "configFilePath": "/home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json"
  }
 }
-Info 10   [18:32:34.474] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 11   [18:32:35.904] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 1 structureChanged: true Elapsed: 1429.6314710006118ms
-Info 12   [18:32:35.904] Project '/home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json' (Configured)
-Info 13   [18:32:35.904] 	Files (301)
+Info 10   [12:40:18.222] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
+Info 11   [12:40:19.497] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1274.4525150004774ms
+Info 12   [12:40:19.497] Project '/home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json' (Configured)
+Info 13   [12:40:19.497] 	Files (302)
 
-Info 14   [18:32:35.905] -----------------------------------------------
-Info 15   [18:32:35.915] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
-Info 16   [18:32:36.406] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true Elapsed: 490.4488740004599ms
-Info 17   [18:32:36.406] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 18   [18:32:36.406] 	Files (450)
+Info 14   [12:40:19.497] -----------------------------------------------
+Info 15   [12:40:19.511] AutoImportProviderProject: found 5 root files in 5 dependencies in 11.499974000267684 ms
+Info 16   [12:40:19.512] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [12:40:19.811] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 299.30028000008315ms
+Info 18   [12:40:19.811] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [12:40:19.811] 	Files (450)
 
-Info 19   [18:32:36.406] -----------------------------------------------
-Info 20   [18:32:36.455] Before ensureProjectForOpenFiles:
-Info 21   [18:32:36.455] After ensureProjectForOpenFiles:
-Info 22   [18:32:36.455] got projects updated in background, updating diagnostics for /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/src/app/app.component.ts
-Info 23   [18:32:37.455] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/.log/ti-10087.log 0:: WatchInfo: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start 1 undefined Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json WatchType: Wild card directory
-Info 24   [18:32:37.456] Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/.log/ti-10087.log
-Info 25   [18:32:37.456] Elapsed:: 0.9095380008220673ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/.log/ti-10087.log 0:: WatchInfo: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start 1 undefined Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json WatchType: Wild card directory
-Info 26   [18:32:46.344] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 27   [18:32:46.358] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 2 structureChanged: false Elapsed: 13.665234997868538ms
-Info 28   [18:32:46.358] Different program with same set of files:: oldProgram.structureIsReused:: 2
-Info 29   [18:32:46.360] getCompletionData: Get current token: 0.014056000858545303
-Info 30   [18:32:46.360] getCompletionData: Is inside comment: 0.01199299842119217
-Info 31   [18:32:46.360] getCompletionData: Get previous token 1: 0.10818599909543991
-Info 32   [18:32:46.360] getCompletionData: Get previous token 2: 0.027191996574401855
-Info 33   [18:32:46.361] getCompletionsAtPosition: isCompletionListBlocker: 0.1830189973115921
-Info 34   [18:32:46.365] getSymbolsFromOtherSourceFileExports: Recomputing list
-Info 35   [18:32:46.400] forEachExternalModuleToImportFrom: filtered out 26 modules by package.json contents
-Info 36   [18:32:46.436] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
-Info 37   [18:32:46.436] forEachExternalModuleToImportFrom autoImportProvider: 35.71126399934292
-Info 38   [18:32:46.437] getSymbolsFromOtherSourceFileExports: 71.07217699661851
-Info 39   [18:32:46.450] getCompletionData: Semantic work: 89.03164700046182
-Info 40   [18:32:46.498] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 46.107880998402834
-Info 41   [18:32:47.68] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 42   [18:32:47.90] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 3 structureChanged: false Elapsed: 21.850685000419617ms
-Info 43   [18:32:47.91] Different program with same set of files:: oldProgram.structureIsReused:: 2
-Info 44   [18:32:47.383] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 45   [18:32:47.403] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 4 structureChanged: false Elapsed: 19.76409799978137ms
-Info 46   [18:32:47.403] Different program with same set of files:: oldProgram.structureIsReused:: 2
-Info 47   [18:32:48.215] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 48   [18:32:48.235] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 5 structureChanged: false Elapsed: 19.620714001357555ms
-Info 49   [18:32:48.235] Different program with same set of files:: oldProgram.structureIsReused:: 2
-Info 50   [18:32:48.236] getCompletionData: Get current token: 0.029475998133420944
-Info 51   [18:32:48.236] getCompletionData: Is inside comment: 0.008285000920295715
-Info 52   [18:32:48.236] getCompletionData: Get previous token 1: 0.07414200156927109
-Info 53   [18:32:48.236] getCompletionData: Get previous token 2: 0.06071599945425987
-Info 54   [18:32:48.236] getCompletionsAtPosition: isCompletionListBlocker: 0.11590099707245827
-Info 55   [18:32:48.247] getSymbolsFromOtherSourceFileExports: Using cached list
-Info 56   [18:32:48.258] getCompletionData: Semantic work: 21.777555000036955
-Info 57   [18:32:48.279] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.8199810013175
-Info 58   [18:32:49.490] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 59   [18:32:49.502] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 6 structureChanged: false Elapsed: 11.211202997714281ms
-Info 60   [18:32:49.502] Different program with same set of files:: oldProgram.structureIsReused:: 2
-Info 61   [18:32:50.832] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 62   [18:32:50.840] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 7 structureChanged: false Elapsed: 8.24710899963975ms
-Info 63   [18:32:50.840] Different program with same set of files:: oldProgram.structureIsReused:: 2
-Info 64   [18:45:41.835] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 65   [18:45:41.868] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 8 structureChanged: false Elapsed: 27.56461099907756ms
-Info 66   [18:45:41.868] Different program with same set of files:: oldProgram.structureIsReused:: 2
-Info 67   [18:45:41.869] getCompletionData: Get current token: 0.01889599859714508
-Info 68   [18:45:41.869] getCompletionData: Is inside comment: 0.008114997297525406
-Info 69   [18:45:41.869] getCompletionData: Get previous token 1: 0.07678600028157234
-Info 70   [18:45:41.869] getCompletionsAtPosition: isCompletionListBlocker: 0.011029999703168869
-Info 71   [18:45:41.875] getCompletionData: Semantic work: 6.346023999154568
-Info 72   [18:45:41.877] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1.379135001450777
-Info 73   [18:45:59.510] Format host information updated
-Info 74   [18:45:59.510] Format host information updated
-Info 75   [18:45:59.511] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 76   [18:45:59.538] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 9 structureChanged: false Elapsed: 26.927769001573324ms
-Info 77   [18:45:59.538] Different program with same set of files:: oldProgram.structureIsReused:: 2
-Info 78   [18:45:59.539] getCompletionData: Get current token: 0.05940299853682518
-Info 79   [18:45:59.539] getCompletionData: Is inside comment: 0.01625100150704384
-Info 80   [18:45:59.539] getCompletionData: Get previous token 1: 0.06312000006437302
-Info 81   [18:45:59.539] getCompletionsAtPosition: isCompletionListBlocker: 0.012834001332521439
-Info 82   [18:45:59.542] getCompletionData: Semantic work: 2.972647000104189
-Info 83   [18:45:59.575] getCompletionData: Get current token: 0.03242100030183792
-Info 84   [18:45:59.575] getCompletionData: Is inside comment: 0.014196999371051788
-Info 85   [18:45:59.575] getCompletionData: Get previous token 1: 0.05329100042581558
-Info 86   [18:45:59.575] getCompletionsAtPosition: isCompletionListBlocker: 0.005769997835159302
-Info 87   [18:45:59.577] getCompletionData: Semantic work: 1.2414750009775162
-Info 88   [18:46:1.142] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 89   [18:46:1.167] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 10 structureChanged: false Elapsed: 25.431501999497414ms
-Info 90   [18:46:1.167] Different program with same set of files:: oldProgram.structureIsReused:: 2
-Info 91   [18:46:8.604] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
-Info 92   [18:46:8.633] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 11 structureChanged: false Elapsed: 28.255826998502016ms
-Info 93   [18:46:8.633] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 20   [12:40:19.811] -----------------------------------------------
+Info 21   [12:40:19.845] Starting updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json
+Info 22   [12:40:19.855] Finishing updateGraphWorker: Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 9.397618999704719ms
+Info 23   [12:40:19.855] Different program with same set of files
+Info 24   [12:40:20.857] DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/.log/ti-10181.log 0:: WatchInfo: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start 1 undefined Config: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json WatchType: Wild card directory
+Info 25   [12:40:20.858] Project: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json Detected file add/remove of non supported extension: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/.log/ti-10181.log
+Info 26   [12:40:20.862] Elapsed:: 4.57167199999094ms DirectoryWatcher:: Triggered with /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/.log/ti-10181.log 0:: WatchInfo: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start 1 undefined Config: /home/albert/Documentos/courses/angular/basics-assignment-3-start/basics-assignment-3-start/tsconfig.json WatchType: Wild card directory
