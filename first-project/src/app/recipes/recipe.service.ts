@@ -38,4 +38,11 @@ export class RecipeService {
     addToShoppingList(ingredients: Ingredient[]) {
         this.slService.addIngredients(ingredients);
     }
+
+    getRecipeAt(id: number) {
+        if(id < 0)
+            new Recipe(null,null,null,null);
+
+        return this.recipes.slice()[id];
+    }
 }
